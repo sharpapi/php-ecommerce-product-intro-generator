@@ -87,19 +87,21 @@ try {
 
 ## Example Response
 ```json
+
 {
-  "data": {
-    "type": "api_job_result",
-    "id": "job-id-here",
-    "attributes": {
-      "status": "success",
-      "type": "content_processing",
-      "result": {
-        "content": "Processed result content here..."
-      }
+    "data": {
+        "type": "api_job_result",
+        "id": "fb0a5ab0-54fe-4283-9a33-ac491962c778",
+        "attributes": {
+            "status": "success",
+            "type": "ecommerce_product_intro",
+            "result": {
+                "product_intro": "Experience unparalleled gaming with the Razer Blade 16, featuring NVIDIA RTX 4090, 13th Gen Intel i9, dual-mode 4K/FHD display, 32GB RAM, 2TB SSD, and a compact GaN charger."
+            }
+        }
     }
-  }
 }
+
 ```
 ---
 
